@@ -1,0 +1,24 @@
+{
+  "name": "pccw-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll "
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/__helpers__/"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "jest-config": "^28.1.0"
+  }
+}
